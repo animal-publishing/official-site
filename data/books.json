@@ -7,7 +7,7 @@
     ],
     "genre": "",
     "description": "ぼくは　ねこ。　ここは　ぼくの　まいにち。\n\nぼくの　しごとは　みはりと　ねること。\n\nあとは　とうちゃんと　かあちゃんと\n\nたくさん　たべることと　ごはんが　すき。\n\nただの　にっきだから　べつに\n\nよまれなくても　いいんですけど。",
-    "publicationDate": "",
+    "publicationDate": "2025-02-09",
     "format": "A6",
     "pageCount": 168,
     "color": "フルカラー",
@@ -15,7 +15,8 @@
     "isPublished": true,
     "cover": "assets/images/nekoneru-nikki-cover.png",
     "backCover": "assets/images/nekoneru-nikki-back.png",
-    "boothUrl": "https://hurry-neko.booth.pm/items/6512861"
+    "boothUrl": "https://hurry-neko.booth.pm/items/6512861",
+    "titleReading": "ねこねるにっき"
   },
   {
     "id": "zenbu-uso",
@@ -25,7 +26,7 @@
     ],
     "genre": "小説・エッセイ・純文学",
     "description": "小説みたいなエッセイ。\nエッセイみたいな小説。\n嘘つきエッセイ。\nほんとの小説。\n\nエッセイと小説の狭間を探る\nちょっと奇妙なエッセイ集であり\nちょっとした短編集、みたいなもの。\n\n小説が好きな方は小説として、\nエッセイが好きな方はエッセイとしてお楽しみください。",
-    "publicationDate": "",
+    "publicationDate": "2026-05-04",
     "format": "文庫版",
     "pageCount": 78,
     "color": "",
@@ -33,7 +34,8 @@
     "isPublished": true,
     "cover": "assets/images/zenbu-uso.jpg",
     "backCover": "",
-    "boothUrl": "https://hurry-neko.booth.pm/items/8314746"
+    "boothUrl": "https://hurry-neko.booth.pm/items/8314746",
+    "titleReading": "ぜんぶうそだよほんとだよ"
   },
   {
     "id": "pan-ya-mayonaka-ahiru",
@@ -43,7 +45,7 @@
     ],
     "genre": "小説・旅・食べ物・尾道",
     "description": "瀬戸内のとある街。大学を辞め、何もかもを捨ててここへやってきた愛瑠は、黒猫に導かれ深夜営業のパン屋に出会う。そしてひょんなことから、店主・リッカさんのもとで働くことに。\n深夜のパン屋を訪れる、どこか訳ありなお客たちと触れ合う中で、愛瑠が向き合うべき過去とは。\n\nパンと尾道と家族の物語です。\nnote創作大賞2024中間選考通過作品。",
-    "publicationDate": "",
+    "publicationDate": "2025-02-09",
     "format": "文庫版",
     "pageCount": 118,
     "color": "",
@@ -51,7 +53,8 @@
     "isPublished": true,
     "cover": "assets/images/pan-ya-mayonaka-ahiru.jpg",
     "backCover": "",
-    "boothUrl": ""
+    "boothUrl": "",
+    "titleReading": "ぱんやまよなかあひる"
   },
   {
     "id": "shoujo-yo-hoshi-ni-nare",
@@ -61,7 +64,7 @@
     ],
     "genre": "小説・掌編小説",
     "description": "警察署の少年課で働く筒井優花。ある日彼女が事情聴取を行ったのは、自殺を図った12歳の少女。少女がビルから飛び降りようとした動機は、「星になる」ことだった。\n6年後、再会した彼女たちが目指すのは「星になる」ことか、それとも──。\n\n星になりたい、あるいはなりたかったあなたへ贈る物語。\n\nnote創作大賞2022応募作品。\nnote公開記事に大幅加筆・修正を加えました。",
-    "publicationDate": "",
+    "publicationDate": "2023-08-29",
     "format": "",
     "pageCount": null,
     "color": "",
@@ -69,7 +72,8 @@
     "isPublished": true,
     "cover": "assets/images/shoujo-hoshi.jpg",
     "backCover": "",
-    "boothUrl": ""
+    "boothUrl": "",
+    "titleReading": "しょうじょよほしになれ"
   },
   {
     "id": "neko-hen-shousetsu",
@@ -79,7 +83,7 @@
     ],
     "genre": "小説・掌編小説・短編小説",
     "description": "noteに公開した掌編を加筆修正し、『猫城』を追加で収録しています。\n猫がどこかから、あちらから、突然に──出現する掌編集です。とりあえず猫好きの方は必見",
-    "publicationDate": "",
+    "publicationDate": "2022",
     "format": "",
     "pageCount": null,
     "color": "",
@@ -87,7 +91,8 @@
     "isPublished": true,
     "cover": "assets/images/neko-hen.jpg",
     "backCover": "",
-    "boothUrl": ""
+    "boothUrl": "",
+    "titleReading": "びょうへんしょうせつ"
   },
   {
     "id": "acchi-muite-tene",
@@ -97,7 +102,7 @@
     ],
     "genre": "小説・恋愛小説・短編小説",
     "description": "男と女、あるいはそれを取り巻く誰かの物語。\n酔いしれたくなるような恋からコメディ調の勢いに乗せたちょいエロまで、色とりどりの恋愛模様を味わえる短編集です。\n※18禁表記がありますが全然18禁ではないことに定評があります。ご心配なく。",
-    "publicationDate": "",
+    "publicationDate": "2024-02-25",
     "format": "文庫版",
     "pageCount": 100,
     "color": "",
@@ -105,7 +110,8 @@
     "isPublished": true,
     "cover": "assets/images/ahchi-muite.jpg",
     "backCover": "",
-    "boothUrl": ""
+    "boothUrl": "",
+    "titleReading": "あっちむいててね"
   },
   {
     "id": "shoshinsha-koshu",
@@ -115,7 +121,7 @@
     ],
     "genre": "エッセイ",
     "description": "はじめての街、はじめての仕事、はじめてのふたり暮らし、はじめてのお給料──。\n大学卒業とともに新たな世界へ飛び出した筆者の、リアルタイムエッセイ集第2弾。\n\n初心者マークを貼りつけて、今日も私は走ってく。",
-    "publicationDate": "",
+    "publicationDate": "2024-02-25",
     "format": "",
     "pageCount": null,
     "color": "",
@@ -123,7 +129,8 @@
     "isPublished": true,
     "cover": "assets/images/shoshinsha-koshu.jpg",
     "backCover": "",
-    "boothUrl": ""
+    "boothUrl": "",
+    "titleReading": "しょしんしゃこうしゅうはありますか"
   },
   {
     "id": "shouhen-shousetsu-2",
@@ -133,7 +140,7 @@
     ],
     "genre": "小説・掌編小説",
     "description": "noteに公開した掌編を加筆修正して収録しています。\n\nクスッと笑えるのか、ブフォっと笑えるのか、ほくそ笑むのか、微笑むのか──カナヅチ猫ワールド全開の、笑変な小説（その２）をお届けします。",
-    "publicationDate": "",
+    "publicationDate": "2022",
     "format": "文庫版",
     "pageCount": 40,
     "color": "",
@@ -141,7 +148,8 @@
     "isPublished": true,
     "cover": "assets/images/shouhen-2.jpg",
     "backCover": "",
-    "boothUrl": ""
+    "boothUrl": "",
+    "titleReading": "しょうへんしょうせつ"
   },
   {
     "id": "muranaka-coming-soon-1",
@@ -151,7 +159,7 @@
     ],
     "genre": "",
     "description": "Coming soon",
-    "publicationDate": "",
+    "publicationDate": "2027",
     "format": "",
     "pageCount": null,
     "color": "",
@@ -159,7 +167,8 @@
     "isPublished": true,
     "cover": "assets/images/coming-soon-1.png",
     "backCover": "",
-    "boothUrl": ""
+    "boothUrl": "",
+    "titleReading": "-"
   },
   {
     "id": "muranaka-coming-soon-2",
@@ -169,7 +178,7 @@
     ],
     "genre": "",
     "description": "Coming soon",
-    "publicationDate": "",
+    "publicationDate": "2027",
     "format": "",
     "pageCount": null,
     "color": "",
@@ -177,6 +186,7 @@
     "isPublished": true,
     "cover": "assets/images/coming-soon-2.png",
     "backCover": "",
-    "boothUrl": ""
+    "boothUrl": "",
+    "titleReading": "-"
   }
 ]

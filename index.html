@@ -14,7 +14,7 @@ Promise.all(["data/books.json","data/authors.json","data/events.json"].map(x=>fe
 const live=books.filter(b=>b.isPublished);const grid=document.getElementById("books-grid");
 function draw(){let list=[...live],mode=document.getElementById("sort").value;
 if(mode==="date")list.sort((a,b)=>(b.publicationDate||"").localeCompare(a.publicationDate||""));
-if(mode==="title")list.sort((a,b)=>a.title.localeCompare(b.title,"ja"));
+if(mode==="title")list.sort((a,b)=>(a.titleReading||a.title).localeCompare(b.titleReading||b.title,"ja"));
 if(mode==="author")list.sort((a,b)=>(authors.find(x=>x.id===a.authors[0])?.penName||"").localeCompare(authors.find(x=>x.id===b.authors[0])?.penName||"","ja"));
 grid.innerHTML=list.map(b=>{let names=b.authors.map(id=>authors.find(a=>a.id===id)?.penName).filter(Boolean).join("・");return `<a class="book-card" href="works/${b.id}.html"><div class="book-cover"><img src="${b.cover}" alt="${b.title}の表紙"></div><div class="book-meta"><h3>${b.title}</h3><div class="book-author">${names}</div></div></a>`}).join("")||'<div class="empty">現在、公開中の作品はありません。</div>';
 document.getElementById("count").textContent=list.length+"作品";}

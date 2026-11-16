@@ -22,3 +22,6 @@
 .top-event-row strong{font-weight:600}
 .booth-number{color:var(--muted);font-size:13px}
 .top-event>a{font-size:12px;color:var(--accent)}
+
+/* Catchphrase correction: show only the replacement copy in black. */
+.hero-subcatch{color:#222 !important;}

@@ -13,3 +13,12 @@
 .event-detail h3{font:500 18px var(--serif);margin:0 0 5px}
 .event-detail p{font-size:13px;color:var(--muted);margin:0}
 @media(max-width:700px){.author-profile{gap:18px}.author-photo{width:112px;height:112px}.event-item{display:block}.event-date{margin-bottom:7px}}
+
+.hero-subcatch{font:500 clamp(22px,3vw,32px)/1.6 var(--serif);letter-spacing:.1em;margin:8px 0 18px;color:var(--accent)}
+
+.top-event{margin:34px auto 0;max-width:760px;padding:20px 24px;border:1px solid var(--line);background:rgba(255,255,255,.72);text-align:left}
+.top-event-heading{font-size:13px;letter-spacing:.12em;color:var(--accent);margin-bottom:12px}
+.top-event-row{display:flex;flex-wrap:wrap;gap:8px 22px;align-items:baseline;font-size:14px;margin:8px 0 12px}
+.top-event-row strong{font-weight:600}
+.booth-number{color:var(--muted);font-size:13px}
+.top-event>a{font-size:12px;color:var(--accent)}

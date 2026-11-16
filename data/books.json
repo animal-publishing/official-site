@@ -142,5 +142,41 @@
     "cover": "assets/images/shouhen-2.jpg",
     "backCover": "",
     "boothUrl": ""
+  },
+  {
+    "id": "muranaka-coming-soon-1",
+    "title": "Coming soon",
+    "authors": [
+      "muranaka-sousuke"
+    ],
+    "genre": "",
+    "description": "Coming soon",
+    "publicationDate": "",
+    "format": "",
+    "pageCount": null,
+    "color": "",
+    "price": null,
+    "isPublished": true,
+    "cover": "assets/images/coming-soon-1.png",
+    "backCover": "",
+    "boothUrl": ""
+  },
+  {
+    "id": "muranaka-coming-soon-2",
+    "title": "Coming soon",
+    "authors": [
+      "muranaka-sousuke"
+    ],
+    "genre": "",
+    "description": "Coming soon",
+    "publicationDate": "",
+    "format": "",
+    "pageCount": null,
+    "color": "",
+    "price": null,
+    "isPublished": true,
+    "cover": "assets/images/coming-soon-2.png",
+    "backCover": "",
+    "boothUrl": ""
   }
 ]

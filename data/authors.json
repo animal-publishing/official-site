@@ -1,9 +1,10 @@
 [
   {
-    "id": "perokichi",
-    "penName": "ぺろきち",
-    "profile": "",
-    "photo": ""
+    "id": "muranaka-sousuke",
+    "penName": "村中爪介（カナヅチ猫）",
+    "profile": "三十歳を超えてから小説を書き始めました。noteで活動していましたが、近年は公募に出して実力試しをしています。最近の悩みは「捨てきれないユーモア」と「読者サービス」です。",
+    "photo": "assets/images/muranaka-cat.png",
+    "x": "https://x.com/kanazuchicat"
   },
   {
     "id": "satsuki-mau",
@@ -12,8 +13,8 @@
     "photo": ""
   },
   {
-    "id": "muranaka-sousuke",
-    "penName": "村中爪介（カナヅチ猫）",
+    "id": "perokichi",
+    "penName": "ぺろきち",
     "profile": "",
     "photo": ""
   }

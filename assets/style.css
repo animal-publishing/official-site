@@ -57,3 +57,5 @@
  .site-header.is-scrolled.menu-open .menu-toggle span:nth-child(2){opacity:0}
  .site-header.is-scrolled.menu-open .menu-toggle span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
 }
+
+.book-status{display:inline-block;margin:4px 0 2px;padding:2px 7px;border:1px solid #aaa;border-radius:2px;font-size:.72rem;color:#555;}

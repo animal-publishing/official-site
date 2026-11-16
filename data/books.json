@@ -188,5 +188,65 @@
     "backCover": "",
     "boothUrl": "",
     "titleReading": "-"
+  },
+  {
+    "id": "toorisugite-yuku-onnatachi",
+    "title": "通り過ぎてゆく女たち",
+    "authors": [
+      "muranaka-sousuke"
+    ],
+    "genre": "",
+    "description": "",
+    "publicationDate": "2021",
+    "format": "",
+    "pageCount": null,
+    "color": "",
+    "price": null,
+    "isPublished": true,
+    "cover": "assets/images/toorisugite-yuku-onnatachi.jpg",
+    "backCover": "",
+    "boothUrl": "",
+    "titleReading": "とおりすぎてゆくおんなたち",
+    "status": "絶版"
+  },
+  {
+    "id": "myohen-shousetsu",
+    "title": "妙変小説",
+    "authors": [
+      "muranaka-sousuke"
+    ],
+    "genre": "",
+    "description": "",
+    "publicationDate": "2022",
+    "format": "",
+    "pageCount": null,
+    "color": "",
+    "price": null,
+    "isPublished": true,
+    "cover": "assets/images/myohen-shousetsu.jpg",
+    "backCover": "",
+    "boothUrl": "",
+    "titleReading": "みょうへんしょうせつ",
+    "status": "絶版"
+  },
+  {
+    "id": "shouhen-shousetsu",
+    "title": "笑変小説",
+    "authors": [
+      "muranaka-sousuke"
+    ],
+    "genre": "",
+    "description": "",
+    "publicationDate": "2022",
+    "format": "",
+    "pageCount": null,
+    "color": "",
+    "price": null,
+    "isPublished": true,
+    "cover": "assets/images/shouhen-shousetsu.jpg",
+    "backCover": "",
+    "boothUrl": "",
+    "titleReading": "しょうへんしょうせつ",
+    "status": "絶版"
   }
 ]

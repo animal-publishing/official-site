@@ -9,7 +9,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P46N7RTJ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) --><header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html"><img class="brand-logo" src="assets/images/animal-publishing-logo.png" alt="あにまる出版"><span class="brand-name">あにまる出版</span></a><nav class="nav"><a href="index.html#books">作品一覧</a><a href="authors/index.html">作者一覧</a><a href="events/index.html">イベント</a></nav></div></header><main><section class="hero"><div class="wrap"><div class="eyebrow">INDEPENDENT PUBLISHING</div><h2 class="hero-subcatch">あなたのポケットに<br>ちょうどいい本を。</h2><p>あにまる出版は、小説・エッセイなどを制作する小さな出版サークルです。<br>日常のちょっとした時間に、気軽に手に取っていただける本をお届けします。</p><div id="event-area"></div></div></section><section class="section wrap"><div class="section-head"><div><div class="section-kicker">AUTHORS</div><h2 class="section-title">作者</h2></div><a href="authors/index.html">作者一覧 →</a></div><div class="author-list" id="authors-grid"></div></section><section class="section wrap" id="books"><div class="section-head"><div><div class="section-kicker">OUR BOOKS</div><h2 class="section-title">作品一覧</h2></div><span>あにまる出版の刊行物</span></div><div class="toolbar"><span id="count"></span><label>並べ替え <select id="sort"><option value="new">新着順</option><option value="date">刊行年月順</option><option value="author">著者順</option><option value="title">タイトル順</option></select></label></div><div class="book-grid" id="books-grid"></div></section></main><footer class="site-footer"><div class="wrap"><a class="brand" href="index.html"><img class="brand-logo" src="assets/images/animal-publishing-logo.png" alt="あにまる出版"><span class="brand-name">あにまる出版</span></a><p>小説・エッセイなど、手に取りやすい本を制作している小さな出版サークルです。</p><div class="copyright">© あにまる出版</div></div></footer><script>
+<!-- End Google Tag Manager (noscript) --><header class="site-header"><div class="wrap header-inner"><a class="brand" href="index.html"><img class="brand-logo" src="assets/images/animal-publishing-logo.png" alt="あにまる出版"><span class="brand-name">あにまる出版</span></a><nav class="nav" id="site-nav"><a href="events/index.html">イベント</a><a href="authors/index.html">作者一覧</a><a href="index.html#books">作品一覧</a><a class="nav-purchase-mobile" href="https://hurry-neko.booth.pm/" target="_blank" rel="noopener noreferrer">購入はこちら</a></nav><div class="header-actions"><a class="purchase-link" href="https://hurry-neko.booth.pm/" target="_blank" rel="noopener noreferrer">購入はこちら</a><button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="メニューを開く"><span></span><span></span><span></span></button></div></div></header><main><section class="hero"><div class="wrap"><div class="eyebrow">INDEPENDENT PUBLISHING</div><h2 class="hero-subcatch">あなたのポケットに<br>ちょうどいい本を。</h2><p>あにまる出版は、小説・エッセイなどを制作する小さな出版サークルです。<br>日常のちょっとした時間に、気軽に手に取っていただける本をお届けします。</p><div id="event-area"></div></div></section><section class="section wrap"><div class="section-head"><div><div class="section-kicker">AUTHORS</div><h2 class="section-title">作品一覧</h2></div><a href="authors/index.html">作者一覧 →</a></div><div class="author-list" id="authors-grid"></div></section><section class="section wrap" id="books"><div class="section-head"><div><div class="section-kicker">OUR BOOKS</div><h2 class="section-title">作品一覧</h2></div><span>あにまる出版の刊行物</span></div><div class="toolbar"><span id="count"></span><label>並べ替え <select id="sort"><option value="new">新着順</option><option value="date">刊行年月順</option><option value="author">著者順</option><option value="title">タイトル順</option></select></label></div><div class="book-grid" id="books-grid"></div></section></main><footer class="site-footer"><div class="wrap"><a class="brand" href="index.html"><img class="brand-logo" src="assets/images/animal-publishing-logo.png" alt="あにまる出版"><span class="brand-name">あにまる出版</span></a><p>小説・エッセイなど、手に取りやすい本を制作している小さな出版サークルです。</p><div class="copyright">© あにまる出版</div></div></footer><script>
 Promise.all(["data/books.json","data/authors.json","data/events.json"].map(x=>fetch(x).then(r=>{if(!r.ok)throw new Error("データを読み込めません");return r.json()}))).then(([books,authors,events])=>{
 const live=books.filter(b=>b.isPublished);const grid=document.getElementById("books-grid");
 function draw(){let list=[...live],mode=document.getElementById("sort").value;
@@ -19,7 +19,24 @@ if(mode==="author")list.sort((a,b)=>(authors.find(x=>x.id===a.authors[0])?.penNa
 grid.innerHTML=list.map(b=>{let names=b.authors.map(id=>authors.find(a=>a.id===id)?.penName).filter(Boolean).join("・");return `<a class="book-card" href="works/${b.id}.html"><div class="book-cover"><img src="${b.cover}" alt="${b.title}の表紙"></div><div class="book-meta"><h3>${b.title}</h3><div class="book-author">${names}</div></div></a>`}).join("")||'<div class="empty">現在、公開中の作品はありません。</div>';
 document.getElementById("count").textContent=list.length+"作品";}
 draw();document.getElementById("sort").onchange=draw;
-document.getElementById("authors-grid").innerHTML=authors.map(a=>`<a class="author-card" href="authors/${a.id}.html"><h2>${a.penName}</h2></a>`).join("");
+document.getElementById("authors-grid").innerHTML=authors.map(a=>`<a class="author-card" href="authors/${a.id}.html"><img class="author-card-photo" src="${a.photo}" alt="${a.penName}のプロフィール画像"><h2>${a.penName}</h2></a>`).join("");
 const upcoming=events.filter(e=>e.status==="公開");if(upcoming.length)document.getElementById("event-area").innerHTML='<div class="top-event"><div class="top-event-heading">今後のイベント・出店予定</div>'+upcoming.map(e=>'<div class="top-event-row"><strong>'+e.eventName+'</strong><span>'+e.eventDate+'</span><span class="booth-number">ブース番号：'+(e.boothNumber||"-")+'</span></div>').join("")+'<a href="events/index.html">イベント情報 →</a></div>';
 }).catch(()=>{document.getElementById("count").textContent="作品情報を読み込めません";});
+</script><script>
+(()=>{
+ const header=document.querySelector('.site-header');
+ const toggle=document.querySelector('.menu-toggle');
+ const nav=document.querySelector('.nav');
+ if(!header||!toggle||!nav)return;
+ const update=()=>header.classList.toggle('is-scrolled',window.scrollY>80);
+ update(); window.addEventListener('scroll',update,{passive:true});
+ toggle.addEventListener('click',()=>{
+   const open=header.classList.toggle('menu-open');
+   toggle.setAttribute('aria-expanded',String(open));
+   toggle.setAttribute('aria-label',open?'メニューを閉じる':'メニューを開く');
+ });
+ nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+   header.classList.remove('menu-open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','メニューを開く');
+ }));
+})();
 </script></body></html>

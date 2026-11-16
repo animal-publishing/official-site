@@ -9,7 +9,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P46N7RTJ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) --><header class="site-header"><div class="wrap header-inner"><a class="brand" href="../index.html"><img class="brand-logo" src="../assets/images/animal-publishing-logo.png" alt="あにまる出版"><span class="brand-name">あにまる出版</span></a><nav class="nav"><a href="../index.html#books">作品一覧</a><a href="../authors/index.html">作者一覧</a><a href="../events/index.html">イベント</a></nav></div></header><main><div class="page-intro"><div class="wrap"><div class="breadcrumbs"><a href="../index.html">ホーム</a> / <a href="../index.html#books">作品一覧</a> / ねこねるにっき</div><div class="eyebrow">BOOK DETAILS</div><h1>ねこねるにっき</h1></div></div><section class="wrap detail"><div><div class="detail-cover"><img src="../assets/images/nekoneru-nikki-cover.png" alt="ねこねるにっき 表紙"></div></div><div class="detail-copy"><h1>ねこねるにっき</h1><div class="detail-authors"><a href="../authors/perokichi.html">ぺろきち</a></div><div class="description">ぼくは　ねこ。　ここは　ぼくの　まいにち。
+<!-- End Google Tag Manager (noscript) --><header class="site-header"><div class="wrap header-inner"><a class="brand" href="../index.html"><img class="brand-logo" src="../assets/images/animal-publishing-logo.png" alt="あにまる出版"><span class="brand-name">あにまる出版</span></a><nav class="nav" id="site-nav"><a href="../events/index.html">イベント</a><a href="../authors/index.html">作者一覧</a><a href="../index.html#books">作品一覧</a><a class="nav-purchase-mobile" href="https://hurry-neko.booth.pm/" target="_blank" rel="noopener noreferrer">購入はこちら</a></nav><div class="header-actions"><a class="purchase-link" href="https://hurry-neko.booth.pm/" target="_blank" rel="noopener noreferrer">購入はこちら</a><button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="メニューを開く"><span></span><span></span><span></span></button></div></div></header><main><div class="page-intro"><div class="wrap"><div class="breadcrumbs"><a href="../index.html">ホーム</a> / <a href="../index.html#books">作品一覧</a> / ねこねるにっき</div><div class="eyebrow">BOOK DETAILS</div><h1>ねこねるにっき</h1></div></div><section class="wrap detail"><div><div class="detail-cover"><img src="../assets/images/nekoneru-nikki-cover.png" alt="ねこねるにっき 表紙"></div></div><div class="detail-copy"><h1>ねこねるにっき</h1><div class="detail-authors"><a href="../authors/perokichi.html">ぺろきち</a></div><div class="description">ぼくは　ねこ。　ここは　ぼくの　まいにち。
 
 ぼくの　しごとは　みはりと　ねること。
 
@@ -19,4 +19,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 ただの　にっきだから　べつに
 
-よまれなくても　いいんですけど。</div><dl class="specs"><div><dt>判型</dt><dd>A6</dd></div><div><dt>ページ数</dt><dd>168ページ</dd></div><div><dt>印刷</dt><dd>フルカラー</dd></div><div><dt>価格</dt><dd>1,000円</dd></div></dl><a class="button" href="https://hurry-neko.booth.pm/items/6512861" target="_blank" rel="noopener">BOOTHで見る</a></div></section></main><footer class="site-footer"><div class="wrap"><a class="brand" href="../index.html"><img class="brand-logo" src="../assets/images/animal-publishing-logo.png" alt="あにまる出版"><span class="brand-name">あにまる出版</span></a><p>小説・エッセイなど、手に取りやすい本を制作している小さな出版サークルです。</p><div class="copyright">© あにまる出版</div></div></footer></body></html>
+よまれなくても　いいんですけど。</div><dl class="specs"><div><dt>判型</dt><dd>A6</dd></div><div><dt>ページ数</dt><dd>168ページ</dd></div><div><dt>印刷</dt><dd>フルカラー</dd></div><div><dt>価格</dt><dd>1,000円</dd></div></dl><a class="button" href="https://hurry-neko.booth.pm/items/6512861" target="_blank" rel="noopener">BOOTHで見る</a></div></section></main><footer class="site-footer"><div class="wrap"><a class="brand" href="../index.html"><img class="brand-logo" src="../assets/images/animal-publishing-logo.png" alt="あにまる出版"><span class="brand-name">あにまる出版</span></a><p>小説・エッセイなど、手に取りやすい本を制作している小さな出版サークルです。</p><div class="copyright">© あにまる出版</div></div></footer><script>
+(()=>{
+ const header=document.querySelector('.site-header');
+ const toggle=document.querySelector('.menu-toggle');
+ const nav=document.querySelector('.nav');
+ if(!header||!toggle||!nav)return;
+ const update=()=>header.classList.toggle('is-scrolled',window.scrollY>80);
+ update(); window.addEventListener('scroll',update,{passive:true});
+ toggle.addEventListener('click',()=>{
+   const open=header.classList.toggle('menu-open');
+   toggle.setAttribute('aria-expanded',String(open));
+   toggle.setAttribute('aria-label',open?'メニューを閉じる':'メニューを開く');
+ });
+ nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+   header.classList.remove('menu-open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','メニューを開く');
+ }));
+})();
+</script></body></html>

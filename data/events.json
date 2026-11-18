@@ -13,8 +13,44 @@
     "description": "出店"
   },
   {
-    "eventDate": "",
-    "eventName": "文学フリマ広島5～8",
+    "eventDate": "2026年5月4日",
+    "eventName": "文学フリマ東京42",
+    "status": "終了",
+    "description": "出店"
+  },
+  {
+    "eventDate": "2026年3月7日",
+    "eventName": "おかやま文学フェスティバル ZINEスタジアム",
+    "status": "終了",
+    "description": "出店"
+  },
+  {
+    "eventDate": "2026年2月8日",
+    "eventName": "文学フリマ広島8",
+    "status": "終了",
+    "description": "出店"
+  },
+  {
+    "eventDate": "2025年5月24日",
+    "eventName": "ZINEフェス広島",
+    "status": "終了",
+    "description": "出店"
+  },
+  {
+    "eventDate": "2025年2月9日",
+    "eventName": "文学フリマ広島7",
+    "status": "終了",
+    "description": "出店"
+  },
+  {
+    "eventDate": "2024年10月19日",
+    "eventName": "フクヤマニメ7 漫画・文学インディーズメッセ",
+    "status": "終了",
+    "description": "出店"
+  },
+  {
+    "eventDate": "2024年2月25日",
+    "eventName": "文学フリマ広島6",
     "status": "終了",
     "description": "出店"
   }

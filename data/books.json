@@ -248,5 +248,41 @@
     "boothUrl": "",
     "titleReading": "しょうへんしょうせつ",
     "status": "絶版"
+  },
+  {
+    "id": "rakko-pipe-osaka-curry-vol1",
+    "title": "らっこピペのほんわかカレー日記 大阪のカレー編 Vol.1",
+    "authors": [
+      "rakko-pipe"
+    ],
+    "genre": "ZINE",
+    "description": "らっこピペがnoteで執筆したカレーの食レポの大阪編の一部(5店舗)をまとめたZINEです。\n\nnote内のレポでは描かれていなかった新しいゆるいキャラを5体新しく描き下ろしましたので、お手に取っていただけますと幸いです！！！！！！！！ｷｬｯｷｬｯ",
+    "publicationDate": "2026-09",
+    "format": "",
+    "pageCount": null,
+    "color": "",
+    "price": null,
+    "isPublished": true,
+    "cover": "assets/images/rakko-pipe-osaka.jpg",
+    "backCover": "",
+    "boothUrl": ""
+  },
+  {
+    "id": "rakko-pipe-kobe-curry-vol1",
+    "title": "らっこピペのほんわかカレー日記 神戸のカレー編 Vol.1",
+    "authors": [
+      "rakko-pipe"
+    ],
+    "genre": "ZINE",
+    "description": "神戸のカレー屋さん4店舗のカレーを各2種レポし、それぞれを擬キャラ化してみました。\n\n食レポ本というものはほんとうに数多くあるなかで、自分なりに差別化するために、レポ後にその食べたカレーさんをゆる～～いキャラクターにすることに挑戦しました。\nぜひお手に取っていただけますと幸いです。('ω')",
+    "publicationDate": "2024-09",
+    "format": "",
+    "pageCount": null,
+    "color": "",
+    "price": null,
+    "isPublished": true,
+    "cover": "assets/images/rakko-pipe-kobe.jpg",
+    "backCover": "",
+    "boothUrl": ""
   }
 ]

@@ -35,7 +35,8 @@
     "cover": "assets/images/zenbu-uso.jpg",
     "backCover": "",
     "boothUrl": "https://hurry-neko.booth.pm/items/8314746",
-    "titleReading": "ぜんぶうそだよほんとだよ"
+    "titleReading": "ぜんぶうそだよほんとだよ",
+    "status": "絶版"
   },
   {
     "id": "pan-ya-mayonaka-ahiru",
@@ -284,5 +285,45 @@
     "cover": "assets/images/rakko-pipe-kobe.jpg",
     "backCover": "",
     "boothUrl": ""
+  },
+  {
+    "id": "ba-jin-road",
+    "title": "バージンロードを歩かない",
+    "authors": [
+      "satsuki-mau"
+    ],
+    "genre": "エッセイ",
+    "description": "結婚は恋愛の延長線上にあるはずなのに、結婚は恋愛ではない。恋愛だけでは片付かない、何かもっと揺るぎなくて、それでいて脆いもの。\n結婚ってなんだろう。愛ってなんだろう。\n新婚一年目、揺らぐ足元を見つめながら考えたこと、感じたこと、訪れた場所について綴ったエッセイと日記と備忘録。\n\n結婚前後の日々や感情を赤裸々に書き残しました。",
+    "publicationDate": "2026-02-08",
+    "format": "文庫サイズ",
+    "pageCount": 146,
+    "color": "",
+    "price": 500,
+    "isPublished": true,
+    "cover": "assets/images/ba-jin.jpg",
+    "backCover": "",
+    "boothUrl": "",
+    "titleReading": "ばーじんろーどをあるかない",
+    "status": "絶版"
+  },
+  {
+    "id": "seikatsu-shiteiku-tameni",
+    "title": "せいかつしていくために",
+    "authors": [
+      "satsuki-mau"
+    ],
+    "genre": "エッセイ",
+    "description": "せいかつには、いつだって食べものがある。\n\nどこにでもいる大学生の最後の2年間。一人暮らし、誰かとの暮らし、そして孤独を経験して這い上がっていくまでの日々を食べものとともに綴った、リアルタイムエッセイ集。\n\nnote記事の加筆・修正に加え、書き下ろしも収録。\n母直伝ズボラトーストレシピもあります。",
+    "publicationDate": "2023-08-29",
+    "format": "",
+    "pageCount": null,
+    "color": "",
+    "price": 300,
+    "isPublished": true,
+    "cover": "assets/images/seikatsu.jpg",
+    "backCover": "",
+    "boothUrl": "",
+    "titleReading": "せいかつしていくために",
+    "status": "絶版"
   }
 ]

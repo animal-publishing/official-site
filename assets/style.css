@@ -59,3 +59,50 @@
 }
 
 .book-status{display:inline-block;margin:4px 0 2px;padding:2px 7px;border:1px solid #aaa;border-radius:2px;font-size:.72rem;color:#555;}
+
+
+/* Related works: shared author navigation on every work detail page */
+.related-books-section{margin-top:64px;margin-bottom:56px}
+.related-books-section .section-title{margin:0 0 18px}
+.related-books-track{
+  display:flex;
+  gap:16px;
+  overflow-x:auto;
+  overflow-y:hidden;
+  padding:2px 2px 12px;
+  scroll-snap-type:x mandatory;
+  overscroll-behavior-x:contain;
+  -webkit-overflow-scrolling:touch;
+  scrollbar-width:thin;
+}
+.related-book-card{
+  display:flex;
+  flex:0 0 calc((100% - 48px)/4);
+  min-width:0;
+  flex-direction:column;
+  gap:8px;
+  color:var(--ink);
+  text-decoration:none;
+  scroll-snap-align:start;
+}
+.related-book-card img{
+  display:block;
+  width:100%;
+  aspect-ratio:3/4;
+  object-fit:cover;
+  background:#e9e2f0;
+  border:1px solid var(--line);
+}
+.related-book-title{
+  display:block;
+  font:500 14px/1.55 var(--serif);
+  overflow-wrap:anywhere;
+}
+.related-book-card:hover .related-book-title{text-decoration:underline}
+@media(max-width:700px){
+  .related-books-section{margin-top:44px;margin-bottom:40px}
+  .related-books-track{gap:12px}
+  .related-book-card{flex-basis:calc((100% - 24px)/3)}
+  .related-book-title{font-size:12px}
+}
+
